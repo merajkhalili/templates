@@ -1,0 +1,81 @@
+@font-face{
+    font-family: newFont;
+    src: url("fonts/Josefin/JosefinSlab-Regular.ttf") format("TrueType");
+}
+
+
+ body{
+	 background-image: url("file:///D:/image1.jpg");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+	 background-attachment: fixed;
+	 color: #fff;
+	 font-size: 2rem;
+}
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.logo-text{
+    font-family:"newFont" ;
+    font-weight: bold;
+}
+
+.container{
+    margin: 2rem;
+}
+
+.header-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-page{
+    text-align: center;
+}
+
+.centerpage{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.developedby{
+    text-align: center;
+}
+
+.login-btn, .signup-btn{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all ease 1s;
+}
+
+.signup-btn{
+    border: 1px solid red;
+}
+
+.login-btn:hover, .signup-btn:hover{
+    cursor: pointer;
+    background-color:fuchsia;
+}
+
+.look-up{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    background-image: linear-gradient(hotpink , purple);
+	cursor: pointer;
+}
+
+.search-input{
+    padding: 1rem 7rem;
+    border: none;
+    border-radius: 1rem;
+}
